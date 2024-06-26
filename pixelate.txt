@@ -1,0 +1,18 @@
+**Found difficult to do**
+- tried changing fonts by copy pasting the google fonts link, but isn't working.
+- tried adding club logo png but its isn't showing up
+- image going out of scale while placing it in div in the web dev, game dev, app dev.
+- when doing gradient only lines of colours are forming 
+
+
+**Js code**
+it is used for the responsiveness/ interaction of site. It works by adjusting the items on the site according
+to the screen size or by the size in which the browser is used. 
+
+
+**FLEX BOX**
+it is used to design the layout of the site
+
+**MEDIA**
+this css feature is used to define the max width/height(screen size) of the screen in which design is being
+applied.
