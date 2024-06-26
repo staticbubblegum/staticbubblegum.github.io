@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECH</title>
+    <script src="https://kit.fontawesome.com/e0f168f11e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            background-color: #502022 ;
+            font-family: 'Roboto sans', sans-serif;
+            margin: 0;
+            height: 10px;
+            color: rgb(218, 222, 225);
+        } 
+        #loginForm {
+            background-color: #353333;
+            padding: 2.5rem;
+            padding-left: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 40px rgba(69, 69, 110, 0.5);
+            max-width: 500px;
+            width: 100%;
+            margin-top: 25vh;
+        }  
+    </style>
+    
+</head>
+<body>
+    <div class="navbar_container">
+        <a href="index.html" id="navbar_logo"><i class="fas fa-gem"></i> PIXELATE.TECH</a>
+    </div>
+    <form id="loginForm">
+        <div class="card_header">-----------------------------Register Here-----------------------------</div>
+        <div class="card_body">
+            <br>
+            <div class="form_group">
+                <span>Enter your name:</span>
+                <input type="text" placeholder="Name">
+            </div>
+            <div class="form_group">
+                <span>Registration Number:</span>
+                <input type="text" placeholder="Registration Number">
+            </div>
+            <div class="form_group">
+                <span>Contact Number:</span>
+                <input type="number" placeholder="Contact Number">
+            </div>
+            <div class="form_group">
+                <span>Email ID:</span>
+                <input type="email" placeholder="Email ID">
+            </div>
+            <div class="form_group">
+                <span>Preference:</span>
+                <div class="form_group_preferences">
+                    <input type="radio" name="preference_option" id="Web"><label for="Web">Web</label>
+                    <input type="radio" name="preference_option" id="App"><label for="App">App</label>
+                    <input type="radio" name="preference_option" id="Game"><label for="Game">Game</label>
+                </div>
+            </div>
+            <div class="form_group">
+                <span>Semester:</span>
+                <select name="semester" id="semester">
+                    <option value="">--Select--</option>
+                    <option value="1st">Semester 1</option>
+                    <option value="2nd">Semester 2</option>
+                    <option value="3rd">Semester 3</option>
+                    <option value="4th">Semester 4</option>
+                    <option value="5th">Semester 5</option>
+                    <option value="6th">Semester 6</option>
+                    <option value="7th">Semester 7</option>
+                    <option value="8th">Semester 8</option>
+                </select>
+            </div>
+            <button type="submit" class="submit_btn">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
